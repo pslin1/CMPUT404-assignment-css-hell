@@ -1,0 +1,74 @@
+body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Old_paper7.jpg");
+	font-family: 'Cormorant Garamond', serif;
+}
+
+pre {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 14pt;
+}
+
+p {
+	font-size: 15pt;
+}
+
+p.tei {
+	font-size: 15pt;
+}
+
+p.poem {
+	font-size: 15pt;
+	font-style: italic;
+}
+
+div.tei {
+	font-size: 15pt;
+}
+
+div.tei-l {
+	font-size: 15pt;
+	text-align: center !important;
+}
+
+div.tei-head {
+	font-size: 15pt;
+	font-style: italic;
+}
+
+p.toc {
+	font-size: 15pt;
+	text-align: center;
+	margin-left: 15%; 
+	margin-right: 15%;
+}
+
+td {
+	font-size: 18pt;
+	text-align: center;
+}
+
+li {
+	text-align: center;
+}
+
+h1 {
+	font-size: 22pt;
+	text-align: center !important;
+}
+
+h2 {
+	font-size: 21pt;
+	text-align: center !important;
+}
+
+h3 {
+	font-size: 20pt;
+	text-align: center !important;
+}
+
+img {
+	max-width: 100%;
+	max-height: auto;
+	border: 1px solid;
+	border-radius: 5px;
+}
