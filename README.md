@@ -39,6 +39,7 @@ https://www.w3schools.com/css/css_font.asp <br>
 https://www.w3schools.com/css/css3_images.asp <br>
 https://www.w3schools.com/cssref/pr_text_text-decoration.asp <br>
 https://fonts.google.com/specimen/Cormorant+Garamond?selection.family=Cormorant+Garamond <br>
+https://www.w3schools.com/css/css_howto.asp <br>
 
 <a href="https://upload.wikimedia.org/wikipedia/commons/c/cf/Old_paper7.jpg">old_paper_7</a> ©2009 <a href="http://www.thedigitalyardsale.com/freebies/freebie-6-old-paper-textures/">The Digital Yard Sale</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC SA-BY</a>
 
