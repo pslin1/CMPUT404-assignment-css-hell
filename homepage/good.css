@@ -25,10 +25,8 @@ div.title{
 	text-align: center;
 	color: white;
 	width: 90%;
-	/* https://stackoverflow.com/questions/18100023/margin-left-and-margin-right-for-setting-center-position
-	Credit: Kevin Bowsersox (https://stackoverflow.com/users/714969/kevin-bowersox)*/
-	margin-left: auto;
-	margin-right: auto;
+	/* http://www.tipue.com/blog/center-a-div/ */
+	margin:0 auto;
 	display: table;
 	font-size: 22pt;
 	height: 6em;
@@ -41,8 +39,7 @@ div.title h1{
 div.navbar {
 	background-color: Grey;
 	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0 auto;
 	height: 2em;
 	font-size: 15pt;
 	text-align: center;
@@ -61,8 +58,7 @@ div.navbar a{
 div.main {
 	background-color: white;
 	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0 auto;
 	font-size: 15pt;
 	/*https://stackoverflow.com/questions/2062258/floating-elements-within-a-div-floats-outside-of-div-why*/
 	/*Credit: Doug Neiner (https://stackoverflow.com/users/152083/doug-neiner)*/
