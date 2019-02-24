@@ -13,13 +13,14 @@ See the License for the specific language governing permissions and
 limitations under the License.*/
 
 body {
-	background-color: DarkSlateGrey;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Abell2065_Galaxy_Cluster_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg);
 	/*https://stackoverflow.com/questions/7025756/how-to-apply-global-font-to-whole-html-document
 	Credit: Amadiere (https://stackoverflow.com/users/7828/amadiere)*/
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Coiny', cursive;
 }
 
 div.title{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Abell2065_Galaxy_Cluster_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg);
 	position: relative;
 	background-color: RoyalBlue;
 	text-align: center;
@@ -34,10 +35,11 @@ div.title{
 
 div.title h1{
 	vertical-align: middle;
+	color: cyan;
 }
 
 div.navbar {
-	background-color: Grey;
+	background-color: HotPink;
 	width: 90%;
 	margin:0 auto;
 	height: 2em;
@@ -55,7 +57,16 @@ div.navbar a{
 	color: Snow;
 }
 
+/*https://www.w3schools.com/cssref/sel_hover.asp*/
+div.navbar a:hover {
+	color:yellow;
+	/*https://stackoverflow.com/questions/26043218/flip-text-upside-down-on-the-horizontal-axis-on-hover-jquery-or-css
+	Credit: BJack (https://stackoverflow.com/users/1541412/bjack)*/
+	transform: scaleY(-1);
+}
+
 div.main {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Abell2065_Galaxy_Cluster_from_the_Mount_Lemmon_SkyCenter_Schulman_Telescope_courtesy_Adam_Block.jpg);
 	background-color: white;
 	width: 90%;
 	margin:0 auto;
@@ -69,6 +80,7 @@ div.main p {
 	margin:0;
 	height: 100%;
 	padding: 10px;
+	color: yellow;
 }
 
 div.main p.list {
@@ -80,12 +92,14 @@ div.main p.list {
 
 div.main ul {
 	padding-top: 0px;
+	color: aqua;
 }
 
 div.main h2 {
 	margin:0;
 	height: 100%;
 	padding: 5px;
+	color: GreenYellow;
 }
 
 div.main img {
@@ -102,7 +116,8 @@ div.sidebar {
 	float: right;
 	width: 240px;
 	padding: 25px;
-	background-color: lightgrey;
+	/*https://www.w3schools.com/css/css3_gradients.asp*/
+	background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 }
 
 div.sidebar h2 {
@@ -110,5 +125,5 @@ div.sidebar h2 {
 }
 
 div.sidebar li {
-	padding-top: 15px;
+	padding-top: 5px;
 }
